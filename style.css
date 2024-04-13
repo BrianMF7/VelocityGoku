@@ -1,0 +1,198 @@
+body{
+  background-color: black;
+}
+
+h1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 80px;
+  color: #f1870e;
+  -webkit-text-stroke: 2px navy;
+  margin-top: 0px;
+  font-family: Marker Felt, fantasy;
+
+}
+
+.game-info{
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  padding: 50px;
+  font-family: Andale Mono, monospace;
+}
+
+.controls{
+  color: white;
+  text-align: center;
+  font-family: Optima, sans-serif;
+}
+
+.modifiers{
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: Optima, sans-serif;
+  
+  
+}
+
+ul{
+  list-style-type: none;
+  padding-bottom: 20px;
+  padding-right: 48px;
+}
+
+.gokuImage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+
+.gokuImage:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: vibrate 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes vibrate {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-1deg); }
+  20% { transform: rotate(1deg); }
+  30% { transform: rotate(0deg); }
+  40% { transform: rotate(1deg); }
+  50% { transform: rotate(-1deg); }
+  60% { transform: rotate(0deg); }
+  70% { transform: rotate(-1deg); }
+  80% { transform: rotate(1deg); }
+  90% { transform: rotate(0deg); }
+  100% { transform: rotate(-1deg); }
+}
+
+.city{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+ .button-container-div {
+       display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10px;
+   padding-bottom: 10em;
+   
+
+ }
+
+.button {
+  justify-content: center;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #f1870e;
+  border: none;
+  border-radius: 15px;
+  margin-top: 50px;
+  
+}
+
+.button:hover {
+  background-color: navy;
+  box-shadow: 0 5px #666;
+}
+
+.button:active {
+  background-color: yellow;
+  transform: translateY(4px);
+}
+
+
+.footer {
+  padding: 30px 0;
+  color: rgb(165, 161, 161);
+   font-size:20px;
+  text-align: center;
+  background-color: orange;
+  border-top: 1px solid #e5e5e5;
+}
+
+#copyright{
+  color: black;
+  font-size: 15px;
+  
+}
+
+.good {
+  color:blue;
+  font-style: italic;
+}
+
+#title-img-l{
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+#title-img-r{
+  float: right;
+  width: 100px;
+  height: 100px;
+}
+
+.gameplay-image{
+  width: 48%;
+  height: 50%;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.img-r{
+  float: right;
+  padding-right: 20px;
+}
+
+.gameplay-desc-l{
+  color: white;
+  float:left;
+  text-align: center;
+  font-style: italic;
+  margin: 0;
+  position: absolute;
+  left: 22%;
+}
+
+.gameplay-desc-r{
+  color: white;
+  float:right;
+  text-align: center;
+  font-style: italic;
+  margin: 0;
+  position: absolute;
+  right: 21%;
+}
+
+h2.modifiers{
+  font-size: 40px;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+
+
+
+
+

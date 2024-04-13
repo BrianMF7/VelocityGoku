@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: cursive;
+}
+.background {
+	height: 100vh;
+	width: 100vw;
+	background: url("west_city") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.goku {
+	height: 90px;
+	width: 120px;
+	position: fixed;
+	top: 40vh;
+	left: 30vw;
+	z-index: 100;
+}
+.pole {
+	position: fixed;
+	top: 40vh;
+	left: 100vw;
+	height: 70vh;
+	width: 6vw;
+	background:radial-gradient(#f49d25 50%, #fcff38);
+	border: 5px solid black;
+}
+.message {
+	position: absolute;
+	z-index: 10;
+	color: #ffae00;
+	top: 30%;
+	left: 50%;
+	font-size: 4em;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.messageStyle{
+	background: white;
+	padding: 30px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	border-radius: 40%;
+}
+.score {
+	position: fixed;
+	z-index: 10;
+	height: 10vh;
+	font-size: 10vh;
+	font-weight: 100;
+	color: white;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+	top: 0;
+	left: 0;
+	margin: 10px;
+	font-family: cursive;
+}
+.scoreValue {
+	color: #fb7b65;
+	font-weight: bold;
+}
+@media only screen and (max-width: 1080px) {
+    .message{
+		font-size: 50px;
+		top: 50%;
+		white-space: nowrap;
+	}
+	.score{
+		font-size: 8vh;
+	}
+	.goku{
+		width: 120px;
+		height: 90px;
+	}
+	.pole{
+		width: 14vw;
+	}
+}
+Footer
+
